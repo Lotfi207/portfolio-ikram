@@ -20,6 +20,9 @@ function PagesBar() {
         <Link href="/" className="hover:text-black-200">Accueil</Link>
         <Link href="/formation" className="hover:text-black-200">Formation</Link>
         <Link href="/project" className="hover:text-black-200">Projects</Link>
+        <Link href="/contact" className="hover:text-black-200">Contact</Link>
+        <Link href="/temoignage" className="hover:text-black-200">temoignage</Link>
+        
         {/* Rest of your code */}
       </div>
     </div>
