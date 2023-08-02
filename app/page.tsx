@@ -1,9 +1,7 @@
 import Image from 'next/image'
-import Footer from '@/components/Footer'
-import PagesBar from '@/components/PageBar'
-
+import IkramSection from '@/components/Introduction'
 export default function Home() {
   return (
-    <></>
+    <IkramSection/>
   )
 }
