@@ -1,48 +1,26 @@
+// pagesBar.js
+'use client'
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import "../Styles/pagesBar.css";
+import Link from "next/link";
 
 function PagesBar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
-  const location = useLocation();
-
-  useEffect(() => {
-    setExpandNavbar(false);
-  }, [location]);
 
   const handleNavbarToggle = () => {
     setExpandNavbar((prev) => !prev);
   };
 
   return (
-    <div className="navbar" id={expandNavbar ? "open" : "close"}>
+    <div className="navbar bg-gray-500 text-black p-4">
       <div className="toggleButton" onClick={handleNavbarToggle}>
-        <div className="toggleIcon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        {/* Your toggle button content */}
       </div>
-      <div className="links">
-        <Link to="/">Accueil</Link>
-        <Link to="/formation">Formation</Link>
-        <Link to="/project">Projects</Link>
-        <div className="dropdown">
-          <Link >Contact</Link>
-          <div className="dropdown-content">
-            <Link to="/listeContact">Liste Contacts</Link>
-            <Link to="/contact">Contactez-moi</Link>
-          </div>
-        </div>
-      
-        
-        <div className="dropdown">
-          <Link >Temoignage</Link>
-          <div className="dropdown-content">
-            <Link to="/listeTemoignage">Liste des témoignages</Link>
-            <Link to="/formTemoignage">Laisser un témoignage</Link>
-          </div>
-        </div>
+      <div className="links flex gap-4">
+        {/* Replace the links with Tailwind CSS styles */}
+        <Link href="/" className="hover:text-black-200">Accueil</Link>
+        <Link href="/formation" className="hover:text-black-200">Formation</Link>
+        <Link href="/project" className="hover:text-black-200">Projects</Link>
+        {/* Rest of your code */}
       </div>
     </div>
   );
