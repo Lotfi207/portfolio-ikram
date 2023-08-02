@@ -23,7 +23,7 @@ const IkramSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in Canada, CA. Working towards creating software that
+            based in Canada. Working towards creating software that
             makes life easier and more meaningful.
           </p>
          

@@ -28,8 +28,6 @@ function PagesBar() {
         <Link href="/" className="cursor-pointer hover:text-black-200 p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border">
          Accueil 
         </Link>
-        <Link href="/formation" className="cursor-pointer hover:text-black-200 p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border">Formation
-        </Link>
         <Link href="/project"className="cursor-pointer hover:text-black-200 p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border">Projects
         </Link>
         <Link href="/contact"className="cursor-pointer hover:text-black-200 p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border">Contact
