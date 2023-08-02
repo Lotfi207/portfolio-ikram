@@ -1,0 +1,51 @@
+.formulaire-contact {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .formulaire-contact label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .formulaire-contact input[type="text"],
+  .formulaire-contact input[type="email"],
+  .formulaire-contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulaire-contact textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .formulaire-contact button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formulaire-contact button:hover {
+    background-color:red;
+  }
+  
+  .error-message {
+    color: #d50000;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
