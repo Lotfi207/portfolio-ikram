@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import{updateTemoignage} from "@/store/reducers/temoignageReducer"
 import { useRouter } from "next/navigation";
 
+
 const EditTemoignage=({params}) =>{
     const dispatch = useDispatch()
     const { id } = params
@@ -11,7 +12,7 @@ const EditTemoignage=({params}) =>{
     const [emailError, setEmailError] = useState('');
     const [temoignageError, setTemoignageError] = useState('');
     const temoignage= useSelector(state => state.temoignage.temoignage)
-    const [state, setState] = useState({  // Initialisation de state avec la valeur recue
+    const [state, setState] = useState({  
         prenom: '',
         nom: '',
         email: '',

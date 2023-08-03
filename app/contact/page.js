@@ -52,7 +52,7 @@ const Contact = ({ setContact }) => {
       nom,
       email,
       message,
-      password,
+      
     };
 
     setContact(newContact);
@@ -61,7 +61,6 @@ const Contact = ({ setContact }) => {
     setNom('');
     setEmail('');
     setMessage('');
-    setPassword('');
     setNomError('');
     setEmailError('');
     setMessageError('');

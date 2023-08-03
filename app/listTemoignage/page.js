@@ -53,7 +53,7 @@ function page() {
                 <td className="px-4 py-2">{temoignage.email}</td>
                 <td className="px-4 py-2">{temoignage.temoignage}</td>
                 <td className="px-4 py-2">
-                  <button className="px-4 py-2 mr-2 text-white bg-blue-500 rounded-md hover:bg-blue-200 focus:outline-none" onClick={() => goToEdit(temoignage.id)}>Editer</button>
+                  <button className="px-4 py-2 mr-2 text-white bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none" onClick={() => goToEdit(temoignage.id)}>Modifier</button>
                   <button className="px-4 py-2 text-white bg-red-500 rounded-md hover:bg-red-600 focus:outline-none" onClick={() => supprimer(temoignage.id)}>Supprimer</button>
                 </td>
               </tr>

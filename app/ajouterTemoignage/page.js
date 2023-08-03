@@ -79,25 +79,24 @@ const isValidEmail = (email) => {
   return ( <>
     
     <div>
-      <form onSubmit={handleSubmit} className="temoignageForm mt-20 flex-grow  max-w-lg mx-auto bg-gray-300 p-20 rounded-lg shadow-lg">
+      <form onSubmit={handleSubmit} className="temoignageForm mt-20 flex-grow max-w-lg mx-auto bg-gray-300 p-20 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4 text-white">Laisser un témoignage</h2>
 
         <div className="mb-4">
-             <label className="form-label block text-gray-400 font-bold" htmlFor='prenom'>Prenom</label>
-              <input className="form-control w-full px-4 py-2 mt-2 border rounded-lg resize-none focus:outline-none focus:border-blue-500" value={state.prenom} onChange={handleChange} type='text' name='prenom' id='prenom' placeholder='Entrer le prenom' />
+          <label className="form-label block text-gray-400 font-bold" htmlFor='prenom'>Prenom</label>
+          <input className="form-control w-full px-4 py-2 mt-2 border rounded-lg resize-none focus:outline-none focus:border-blue-500" value={state.prenom} onChange={handleChange} type='text' name='prenom' id='prenom' placeholder='Entrer le prenom' />
         </div>
         <div className="mb-4">
-            <label className="form-label block text-gray-400 font-bold" htmlFor='nom'>Nom</label>
-              <input className="form-control w-full px-4 py-2 mt-2 border rounded-lg resize-none focus:outline-none focus:border-blue-500" value={state.nom} onChange={handleChange} type='text' name='nom' id='nom' placeholder='Entrer le nom' />
-         </div>
-                  
-        <div className="mb-4">
+          <label className="form-label block text-gray-400 font-bold" htmlFor='nom'>Nom</label>
+          <input className="form-control w-full px-4 py-2 mt-2 border rounded-lg resize-none focus:outline-none focus:border-blue-500" value={state.nom} onChange={handleChange} type='text' name='nom' id='nom' placeholder='Entrer le nom' />
+        </div>
 
+        <div className="mb-4">
           <label htmlFor="email" className="block text-gray-400 font-bold">Email :</label>
           <input
             type="email"
             id="email"
-            name="email" 
+            name="email"
             value={state.email} onChange={handleChange}
             required
             className={`w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:border-blue-500 ${emailError ? "border-red-500" : "border-gray-700"}`}

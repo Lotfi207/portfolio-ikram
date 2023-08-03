@@ -1,8 +1,6 @@
 'use client'
-import { optimizeImage } from "next/dist/server/image-optimizer";
 import React from "react";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
-import "footer.css"
 
 const Footer = () => {
   return (

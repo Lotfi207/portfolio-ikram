@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from "next/image"
-import Link from "next/link"
+
 
 
 const projects = [
   {
+    
     name: "Best and Cheap ",
     description:
       "Ce projet consiste à créer un site web de vente d'articles électroniques en ligne dans le but de faciliter l'achat et la vente de produits neufs ainsi que d'occasions avantageuses. Notre rôle est d'agir en tant qu'intermédiaire entre les entreprises d'électronique telles qu'Apple, Samsung, Asus, HP, Google, etc., et les acheteurs en exposant des produits intéressants en termes de qualité et de prix. De plus, les clients ont la possibilité de trouver des articles d'occasion en bon état, car nous acceptons et vendons des produits déjà utilisés.",
@@ -13,6 +14,7 @@ const projects = [
     skills: "react.js,node.js,sqlserver",
   },
   {
+    
     name: "site Web club sportif ",
     description:"ce projet pour un club de sport c'est pour donner a un administrateur le droit pour ajouter des cours ,les supprimers et les modifiers  et aussi pour donner au client le droit de se connecter et de voir les cours dont ils est inscrits ... ",
     skills: "Node.js,sqlite,handlebars",
@@ -53,7 +55,7 @@ const ProjectsSection = () => {
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
-                    <h3 className="text-2xl font-bold mb-6">Skills:</h3>
+                    <h3 className="text-2xl font-bold mb-6">Technologies Utilisées</h3>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
 
                       {project.skills}
