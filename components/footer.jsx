@@ -1,6 +1,8 @@
 'use client'
+
 import React from "react";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+
 
 const Footer = () => {
   return (
