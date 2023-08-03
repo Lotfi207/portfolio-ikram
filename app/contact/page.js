@@ -69,7 +69,9 @@ const Contact = ({ setContact }) => {
   };
 
   return (
-    <div className="formulaire-contact">
+    <div className='formulaire p-20'>
+    <div className="formulaire-contact  mt-100 flex-grow  max-w-lg mx-auto bg-gray-300 p-20 rounded-lg shadow-lg ">
+    
       {isSubmitted ? (
         <p>Votre formulaire a été soumis avec succès.</p>
       ) : (
@@ -109,6 +111,7 @@ const Contact = ({ setContact }) => {
           <button type="submit">Envoyer</button>
         </form>
       )}
+    </div>
     </div>
   );
 };
