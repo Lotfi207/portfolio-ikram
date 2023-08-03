@@ -63,6 +63,7 @@ const isValidEmail = (email) => {
   }
    
     dispatch(addTemoignage({ ...state, id:newId }))
+    router.push("/listTemoignage");
     setState(prev => ({
         ...prev,
         prenom: '',

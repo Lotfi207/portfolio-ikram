@@ -1,0 +1,37 @@
+#projects {
+    padding: 1rem;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px; /* Increased size */
+    overflow: hidden; /* To ensure the inner contents do not overflow outside of the rounded border */
+    border-radius: 20px; /* Rounded border for the frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a lifted appearance */
+  }
+  
+  .project-title {
+    text-align: center;
+  }
+  
+  .project-image {
+    margin-top: 1rem;
+  }
+  
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensure content fills up the card */
+    height: 100%;
+  }
+  

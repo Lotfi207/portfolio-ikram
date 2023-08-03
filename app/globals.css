@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* allows main to grow and take up all available space */
+  }
