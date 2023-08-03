@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Mon Portfolio
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ce portfolio contient mes projets personnels et professionnels. Chaque projet est accompagné d'une description détaillée et des technologies utilisées.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Accueil
 
-To learn more about Next.js, take a look at the following resources:
+Sur la page d'accueil, vous trouverez une brève présentation de moi-même et de mes compétences en tant que développeur.
+![Accueil image](./images/Accueil.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Projets
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+La page des projets affiche une liste de tous mes projets. Vous pouvez cliquer sur chaque projet pour obtenir plus de détails et accéder au code source.
+![page projet](./images/Projetport.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+
+Vous pouvez me contacter en remplissant le formulaire de contact sur cette page. N'hésitez pas à me poser des questions ou à discuter de nouvelles opportunités.
+![page contact](./images/contact.png)
+
+## Laisser Témoignage
+
+Si vous avez travaillé avec moi auparavant, vous pouvez laisser un témoignage sur cette page pour partager votre expérience.
+![temoi](./images/temoi.png)
+
+N'hésitez pas à explorer mon portfolio et à me contacter si vous avez des questions ou des suggestions !
