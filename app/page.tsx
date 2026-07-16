@@ -60,9 +60,13 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-aside">
-          <div className="portrait-wrap">
-            <div className="portrait-frame"><img src="/photo.png" alt="Portrait d’Ikram Lotfi" /></div>
-            <div className="floating-card"><span>Focus actuel</span><strong>Développement<br />& Cloud</strong></div>
+          <div className="signature-card" aria-label="Spécialités d’Ikram Lotfi">
+            <div className="signature-orbit"><span>IL</span></div>
+            <p className="signature-kicker">Profil hybride</p>
+            <p className="signature-title">Full-stack<br /><em>& cloud</em></p>
+            <div className="signature-line" />
+            <p className="signature-copy">Des interfaces précises.<br />Des systèmes robustes.<br />Une vision de bout en bout.</p>
+            <span className="signature-year">Portfolio / 2026</span>
           </div>
           <div className="quick-facts"><span>Lille, France</span><span>FR · EN · AR</span></div>
         </div>
